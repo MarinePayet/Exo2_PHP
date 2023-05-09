@@ -1,6 +1,13 @@
 <?php
 
 $a = 15;
-$b = 10;
+$b = 15;
 
-echo ($a > $b) ? ($a) : ($b);
+if($a>$b){
+    echo $a;
+} elseif($a=$b){
+    echo "égalité";
+} else {
+    echo $b;
+}
+
