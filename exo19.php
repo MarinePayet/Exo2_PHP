@@ -1,15 +1,15 @@
 <?php
 
-function fact($n1, $n2){
-    $total = 0;
-    for($i=0; $i<$n2; $i++){
-        $total += $n1;
+// function fact($n1, $n2){
+//     $total = 0;
+//     for($i=0; $i<$n2; $i++){
+//         $total += $n1;
 
-    }
-    return $total;
-}
+//     }
+//     return $total;
+// }
 
-echo fact(4,5) . "<br>";
+// echo fact(4,5) . "<br>";
 
 
 
